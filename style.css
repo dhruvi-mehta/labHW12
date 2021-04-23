@@ -1,0 +1,28 @@
+body {
+  position:relative;
+  margin:0px;
+  background-color:#D3EFDE;
+  animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+  0% {background-color: #D3EFDE;}
+  25% {background-color: #7C8B95;}
+  50% {background-color:#D3C5E3;}
+  75% {background-color: #BBC9B7;}
+  100% {background-color: #D3EFDE;}
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+}
+
+.emoji {
+  font-size:24px;
+  position:absolute;
+}
